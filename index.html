@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manajemen Tugas Mahasiswa</title>
+<link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+
+<div class="container">
+  <h1> Manajemen Tugas Mahasiswa</h1>
+  
+  <form id="assignmentForm">
+    <input type="text" id="name" placeholder="Nama Tugas">
+    <input type="text" id="course" placeholder="Mata Kuliah">
+    <input type="date" id="deadline">
+    <button type="submit">Tambah</button>
+  </form>
+  <div class="error" id="error"></div>
+
+  <div class="filters">
+    <select id="filterStatus">
+      <option value="all">Semua</option>
+      <option value="pending">Pending</option>
+      <option value="completed">Selesai</option>
+    </select>
+
+    <input type="text" id="search" placeholder="Search by course or name...">
+  </div>
+
+  <ul id="assignmentList" class="assignment-list"></ul>
+  <div class="count" id="count"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
