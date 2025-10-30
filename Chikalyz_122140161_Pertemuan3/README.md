@@ -43,7 +43,3 @@ Terdapat 5 *unit test* di dalam folder `src/tests/` yang mencakup:
 
 ![Laporan Pengujian](tests.png "Laporan Pengujian")
 
-## Catatan dan Rencana Pengembangan
-- Tambahkan lebih banyak pengujian untuk fitur edit/hapus dan alur UX  
-- Migrasikan gaya tampilan ke **Tailwind CSS** atau framework CSS lainnya  
-- Tambahkan fitur pengurutan, paginasi, serta impor/ekspor data
