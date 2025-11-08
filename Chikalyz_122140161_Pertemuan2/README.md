@@ -12,7 +12,6 @@ Fitur utama dari aplikasi ini:
 - UI interaktif yang sederhana dan mudah digunakan
 
 ## Screenshot
-*(Ganti dengan screenshot aplikasi Anda setelah dijalankan)*
 
 ![Screenshot To-Do App](screenshot.png)
 
@@ -36,8 +35,11 @@ Aplikasi ini menggunakan beberapa fitur modern JavaScript (ES6+):
 
 ## Struktur File
 /index.html -> Halaman utama aplikasi
+
 /js/app.js -> Semua logika aplikasi (To-Do class, event listener, render, localStorage)
+
 /css/style.css -> Styling sederhana untuk aplikasi
+
 README.md -> Dokumentasi ini
 
 ## Catatan
