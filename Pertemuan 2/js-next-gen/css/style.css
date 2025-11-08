@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7f8;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4A90E2;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4A90E2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #357ABD;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background: #f0f4f7;
+  transition: background 0.3s;
+}
+
+.todo-item.completed {
+  background: #d4edda;
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.todo-item:hover {
+  background: #e2e8f0;
+}
+
+.todo-actions button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.todo-actions .edit-btn {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.todo-actions .edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.todo-actions .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.todo-actions .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.todo-actions .toggle-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.todo-actions .toggle-btn:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  form input[type="text"] {
+    font-size: 14px;
+  }
+
+  form button {
+    font-size: 14px;
+  }
+
+  .todo-actions button {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
+
